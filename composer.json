@@ -1,0 +1,33 @@
+{
+  "name": "jensostertag/php-geocoding",
+  "description": "A simple PHP Library for Nominatim Geocoding API",
+  "keywords": [
+    "geocode",
+    "nominatim"
+  ],
+  "type": "library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jens Ostertag",
+      "email": "development@jens-ostertag.de",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "jensostertag\\Geocoding\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/JensOstertag/php-curl"
+    }
+  ],
+  "require": {
+    "jensostertag/php-curl": "dev-main",
+    "php": ">=8.0.0"
+  }
+}
