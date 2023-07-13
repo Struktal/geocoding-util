@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c83ac08a2ffd73482f210db73c6e16b",
+    "content-hash": "308cc3386cd9de6273ca7faf99dc0d59",
     "packages": [
         {
-            "name": "jensostertag/php-curl",
-            "version": "dev-main",
+            "name": "jensostertag/curl-adapter",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:JensOstertag/php-curl.git",
-                "reference": "7e2531147797b3880070e08cd41858980ebb3495"
+                "url": "https://github.com/JensOstertag/curl-adapter.git",
+                "reference": "518fd6794f32f49ddf54f8bbbcd37509bbb70f15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JensOstertag/php-curl/zipball/7e2531147797b3880070e08cd41858980ebb3495",
-                "reference": "7e2531147797b3880070e08cd41858980ebb3495",
+                "url": "https://api.github.com/repos/JensOstertag/curl-adapter/zipball/518fd6794f32f49ddf54f8bbbcd37509bbb70f15",
+                "reference": "518fd6794f32f49ddf54f8bbbcd37509bbb70f15",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,6 @@
                 "ext-json": "*",
                 "php": ">=8.0.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -33,7 +32,9 @@
                 }
             },
             "license": [
-                "MIT"
+                "MIT",
+                "GPL-2.0-or-later",
+                "Apache-2.0"
             ],
             "authors": [
                 {
@@ -42,24 +43,22 @@
                     "role": "Developer"
                 }
             ],
-            "description": "A PHP Curl Wrapper Library",
+            "description": "A Curl Wrapper Library for PHP",
             "keywords": [
                 "curl",
                 "wrapper"
             ],
             "support": {
-                "source": "https://github.com/JensOstertag/php-curl/tree/main",
-                "issues": "https://github.com/JensOstertag/php-curl/issues"
+                "source": "https://github.com/JensOstertag/curl-adapter/tree/1.0.0",
+                "issues": "https://github.com/JensOstertag/curl-adapter/issues"
             },
-            "time": "2023-06-24T11:47:35+00:00"
+            "time": "2023-07-13T08:31:20+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "jensostertag/php-curl": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -1,14 +1,16 @@
-# PHP-Geocoding
+# Geocoding-Util for PHP
 This is a simple PHP library to (reverse-)geocode addresses with the Nominatim API.
 
 > <b>Legal Note:</b> This library uses the [Nominatim](https://nominatim.org/) API. Please read the [Terms of Use](https://operations.osmfoundation.org/policies/nominatim/) before using it and comply with them.
+>
+> Data from OpenStreetMap is licensed under [ODbL](https://opendatacommons.org/licenses/odbl/).
 
 ## Installation
 To install this library, include it in your project using composer:
 ```json
 {
     "require": {
-        "jensostertag/php-geocoding": "dev-main"
+        "jensostertag/geocoding-util": "1.0.0"
     }
 }
 ```
