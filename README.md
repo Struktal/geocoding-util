@@ -5,6 +5,11 @@ This is a simple PHP library to (reverse-)geocode addresses with the Nominatim A
 >
 > Data from OpenStreetMap is licensed under [ODbL](https://opendatacommons.org/licenses/odbl/).
 
+> This library uses the [Curl-Adapter](https://github.com/JensOstertag/curl-adapter) library to send requests to the Nominatim API. 
+> 
+> The Curl-Adapter library is licensed under the [MIT License](https://github.com/JensOstertag/curl-adapter/blob/main/LICENSE-MIT). 
+> (c) 2023 Jens Ostertag
+
 ## Installation
 To install this library, include it in your project using composer:
 ```json

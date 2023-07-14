@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "308cc3386cd9de6273ca7faf99dc0d59",
+    "content-hash": "98b7f20b44b13ab8bd400fe253e3fb1e",
     "packages": [
         {
             "name": "jensostertag/curl-adapter",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JensOstertag/curl-adapter.git",
-                "reference": "518fd6794f32f49ddf54f8bbbcd37509bbb70f15"
+                "reference": "4468a3887ef61cdbce7736a6c55cfc1e632fe4d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JensOstertag/curl-adapter/zipball/518fd6794f32f49ddf54f8bbbcd37509bbb70f15",
-                "reference": "518fd6794f32f49ddf54f8bbbcd37509bbb70f15",
+                "url": "https://api.github.com/repos/JensOstertag/curl-adapter/zipball/4468a3887ef61cdbce7736a6c55cfc1e632fe4d1",
+                "reference": "4468a3887ef61cdbce7736a6c55cfc1e632fe4d1",
                 "shasum": ""
             },
             "require": {
@@ -32,9 +32,7 @@
                 }
             },
             "license": [
-                "MIT",
-                "GPL-2.0-or-later",
-                "Apache-2.0"
+                "MIT"
             ],
             "authors": [
                 {
@@ -52,7 +50,7 @@
                 "source": "https://github.com/JensOstertag/curl-adapter/tree/1.0.0",
                 "issues": "https://github.com/JensOstertag/curl-adapter/issues"
             },
-            "time": "2023-07-13T08:31:20+00:00"
+            "time": "2023-07-14T05:11:41+00:00"
         }
     ],
     "packages-dev": [],
