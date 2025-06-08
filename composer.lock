@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "98b7f20b44b13ab8bd400fe253e3fb1e",
+    "content-hash": "29a87ffe22be205d3e7c2c428d0b46fe",
     "packages": [
         {
-            "name": "jensostertag/curl-adapter",
-            "version": "1.0.0",
+            "name": "struktal/curl-adapter",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/JensOstertag/curl-adapter.git",
-                "reference": "4468a3887ef61cdbce7736a6c55cfc1e632fe4d1"
+                "url": "https://github.com/Struktal/curl-adapter.git",
+                "reference": "29d9106d35222bd4ac24fddac1422d0ecdfa0091"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JensOstertag/curl-adapter/zipball/4468a3887ef61cdbce7736a6c55cfc1e632fe4d1",
-                "reference": "4468a3887ef61cdbce7736a6c55cfc1e632fe4d1",
+                "url": "https://api.github.com/repos/Struktal/curl-adapter/zipball/29d9106d35222bd4ac24fddac1422d0ecdfa0091",
+                "reference": "29d9106d35222bd4ac24fddac1422d0ecdfa0091",
                 "shasum": ""
             },
             "require": {
@@ -28,40 +28,34 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "jensostertag\\Curl\\": "src/"
+                    "struktal\\Curl\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "authors": [
-                {
-                    "name": "Jens Ostertag",
-                    "email": "development@jens-ostertag.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A Curl Wrapper Library for PHP",
+            "description": "A curl wrapper library for PHP",
             "keywords": [
                 "curl",
                 "wrapper"
             ],
             "support": {
-                "source": "https://github.com/JensOstertag/curl-adapter/tree/1.0.0",
-                "issues": "https://github.com/JensOstertag/curl-adapter/issues"
+                "issues": "https://github.com/Struktal/curl-adapter/issues",
+                "source": "https://github.com/Struktal/curl-adapter/tree/1.1.0"
             },
-            "time": "2023-07-14T05:11:41+00:00"
+            "time": "2025-06-07T06:35:15+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.0.0"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }

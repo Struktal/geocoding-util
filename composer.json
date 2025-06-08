@@ -1,35 +1,21 @@
 {
-  "name": "jensostertag/geocoding-util",
-  "description": "A simple PHP Library for the Nominatim Geocoding API",
+  "name": "struktal/geocoding-util",
+  "description": "A simple PHP library for the Nominatim Geocoding API",
   "keywords": [
     "geocode",
     "nominatim"
   ],
   "type": "library",
-  "version": "1.0.0",
   "license": [
     "GPL-2.0-only"
   ],
-  "authors": [
-    {
-      "name": "Jens Ostertag",
-      "email": "development@jens-ostertag.de",
-      "role": "Developer"
-    }
-  ],
   "autoload": {
     "psr-4": {
-      "jensostertag\\Geocoding\\": "src/"
+      "struktal\\Geocoding\\": "src/"
     }
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/JensOstertag/curl-adapter"
-    }
-  ],
   "require": {
-    "jensostertag/curl-adapter": "1.0.0",
+    "struktal/curl-adapter": "1.1.0",
     "php": ">=8.0.0"
   }
 }

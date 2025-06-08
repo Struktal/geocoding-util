@@ -1,7 +1,7 @@
 <?php
 
-namespace jensostertag\Geocoding;
-use jensostertag\Curl\Curl;
+namespace struktal\Geocoding;
+use struktal\Curl\Curl;
 
 class Geocoding {
     private static string $API_URL = "https://nominatim.openstreetmap.org/";

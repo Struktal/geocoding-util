@@ -5,17 +5,17 @@ This is a simple PHP library to (reverse-)geocode addresses with the Nominatim A
 >
 > Data from OpenStreetMap is licensed under [ODbL](https://opendatacommons.org/licenses/odbl/).
 
-> This library uses the [Curl-Adapter](https://github.com/JensOstertag/curl-adapter) library to send requests to the Nominatim API. 
+> This library uses the [Curl-Adapter](https://github.com/Struktal/curl-adapter) library to send requests to the Nominatim API. 
 > 
-> The Curl-Adapter library is licensed under the [MIT License](https://github.com/JensOstertag/curl-adapter/blob/main/LICENSE-MIT). 
-> (c) 2023 Jens Ostertag
+> The Curl-Adapter library is licensed under the [MIT License](https://github.com/Struktal/curl-adapter/blob/main/LICENSE). 
+> (c) 2023 Struktal
 
 ## Installation
 To install this library, include it in your project using composer:
 ```json
 {
     "require": {
-        "jensostertag/geocoding-util": "1.0.0"
+        "struktal/geocoding-util": "1.0.0"
     }
 }
 ```
@@ -28,7 +28,7 @@ The following example shows how to geocode an address to coordinates:
 ```php
 <?php
 
-use jensostertag\Geocoding\Geocoding;
+use struktal\Geocoding\Geocoding;
 
 $geocoding = new Geocoding();
 $geocoding->setStreet("James-Franck-Ring")
@@ -56,7 +56,7 @@ The following example shows how to reverse-geocode coordinates to an address:
 ```php
 <?php
 
-use jensostertag\Geocoding\Geocoding;
+use struktal\Geocoding\Geocoding;
     
 $geocoding = new Geocoding();
 $geocoding->setCoordinates(48.4253584, 9.956179)
@@ -95,7 +95,7 @@ You might want to set a custom user agent for your requests towards the Nominati
 ```php
 <?php
 
-use jensostertag\Geocoding\Geocoding;
+use struktal\Geocoding\Geocoding;
 
 Geocoding::setUserAgent("MyApplication/1.0");
 ```
@@ -112,7 +112,7 @@ The public Nominatim API is very limited in the amount of requests you can send.
 ```php
 <?php
 
-use jensostertag\Geocoding\Geocoding;
+use struktal\Geocoding\Geocoding;
 
 Geocoding::setApiUrl("https://nominatim.mydomain.com");
 ```
